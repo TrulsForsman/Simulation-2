@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+    background: #0f0035; /* fallback for old browsers */
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;      
+    padding: 0;
+    margin: 0;
+  }
+h1, h3 {
+    background-color: black;
+}
+.navbar{
+  width: 100%;
+  height: 65px;
+  background-color: darkslategrey;
+  margin: 0;
+  padding: 0;
+  border-radius: 25px;
+}
+ul {
+  margin: 0;
+  list-style-type: none;
+}
+li {
+  float:left;
+  margin: 15px 40px;
+}
+.logotxt {
+  font-size: 15px;
+  color: white;
+}
+.navbar li img {
+  height: 50px;
+  width: 60px;
+}
+.page{
+  width: 600px;
+  padding: 5% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #2f2f2f;
+  max-width: 500px;
+  margin: 0 auto 50px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.h1 {
+    font-weight: 1000;
+
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #c60000;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #5e0000;
+}
+
+
+@media screen and (max-width: 540px ) {
+  .page{
+    width: 300px;
+  }
+  .form {
+    padding: 15px;
+  }
+}
